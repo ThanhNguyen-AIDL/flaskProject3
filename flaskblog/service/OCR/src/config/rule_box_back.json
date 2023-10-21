@@ -1,0 +1,231 @@
+{
+    "_default": {
+        "1": {
+            "_id": "1",
+            "groupId": "1",
+            "ratioZoomImage": 100,
+            "name": "ID_9_NUMBERS",
+            "keywords": ["GIẤY CHỨNG MINH", "Họ tên", "Sinh ngày", "Nguyên quán", "Nơi ĐKHK thường trú", "CHUNG MINH NHAN DAN", "GIAY"],
+            "data": [{
+                    "boxId": "ethnicity",
+                    "boxName": "ethnicity",
+                    "dataType": "string",
+                    "predict": "",
+                    "box": [{
+                        "X1": 90,
+                        "X2": 237,
+                        "Y1": 47,
+                        "Y2": 18,
+                        "id": 10
+                    }]
+                },
+                {
+                    "boxId": "religion",
+                    "boxName": "religion",
+                    "dataType": "string",
+                    "predict": "",
+                    "box": [{
+                        "X1": 310,
+                        "X2": 476,
+                        "Y1": 39,
+                        "Y2": 13,
+                        "id": 10
+                    }]
+                },
+                {
+                    "boxId": "featues",
+                    "boxName": "personal mark and disfigurement",
+                    "dataType": "string",
+                    "predict": "",
+                    "box": [{
+                        "X1": 212,
+                        "X2": 476,
+                        "Y1": 146,
+                        "Y2": 82,
+                        "id": 10
+                    }]
+                },
+                {
+                    "boxId": "issue_day",
+                    "boxName": "issue_day",
+                    "dataType": "string",
+                    "predict": "",
+                    "box": [{
+                        "X1": 208,
+                        "X2": 476,
+                        "Y1": 184,
+                        "Y2": 159,
+                        "id": 10
+                    }]
+                },
+                {
+                    "boxId": "issue_loc",
+                    "boxName": "issue_loc",
+                    "dataType": "string",
+                    "predict": "",
+                    "box": [{
+                        "X1": 208,
+                        "X2": 476,
+                        "Y1": 220,
+                        "Y2": 184,
+                        "id": 10
+                    }]
+                }
+            ]
+
+        },
+        "2": {
+            "_id": "2",
+            "groupId": "1",
+            "ratioZoomImage": 100,
+            "name": "ID_12_NUMBERS",
+            "keywords": ["CHỨNG MINH NHÂN DÂN", "Họ và tên gọi khác", "Giới tính", "Quê quán", "Nơi thường trú"],
+            "data": [{
+                    "boxId": "features",
+                    "boxName": "personal mark and disfigurement",
+                    "dataType": "string",
+                    "predict": "",
+                    "box": [{
+                            "X1": 277,
+                            "X2": 479,
+                            "Y1": 108,
+                            "Y2": 85,
+                            "id": 10
+                        },
+                        {
+                            "X1": 157,
+                            "X2": 479,
+                            "Y1": 132,
+                            "Y2": 108,
+                            "id": 11
+                        }
+                    ]
+                },
+                {
+                    "boxId": "father_name",
+                    "boxName": "name of father",
+                    "dataType": "string",
+                    "predict": "",
+                    "box": [{
+                            "X1": 235,
+                            "X2": 479,
+                            "Y1": 147,
+                            "Y2": 132,
+                            "id": 10
+                        },
+                        {
+                            "X1": 157,
+                            "X2": 479,
+                            "Y1": 169,
+                            "Y2": 147,
+                            "id": 11
+                        }
+                    ]
+                },
+                {
+                    "boxId": "mother_name",
+                    "boxName": "name of mother",
+                    "dataType": "string",
+                    "predict": "",
+                    "box": [{
+                            "X1": 235,
+                            "X2": 479,
+                            "Y1": 184,
+                            "Y2": 169,
+                            "id": 10
+                        }
+
+                    ]
+                },
+                {
+                    "boxId": "issue_day",
+                    "boxName": "issue_day",
+                    "dataType": "string",
+                    "predict": "",
+                    "box": [{
+                            "X1": 254,
+                            "X2": 479,
+                            "Y1": 203,
+                            "Y2": 184,
+                            "id": 10
+                        }
+
+                    ]
+                },
+                {
+                    "boxId": "issue_loc",
+                    "boxName": "issue_loc",
+                    "dataType": "string",
+                    "predict": "",
+                    "box": [{
+                            "X1": 246,
+                            "X2": 479,
+                            "Y1": 247,
+                            "Y2": 203,
+                            "id": 10
+                        }
+
+                    ]
+                }
+
+            ]
+        },
+        "3": {
+            "_id": "3",
+            "groupId": "1",
+            "ratioZoomImage": 100,
+            "name": "ID_NEWEST",
+            "keywords": ["CĂN CƯỚC", "CÔNG DÂN", "Họ và tên", "Quốc tịch", "năm sinh"],
+            "data": [{
+                    "boxId": "features",
+                    "boxName": "personal mark and disfigurement",
+                    "dataType": "string",
+                    "predict": "",
+                    "box": [{
+                            "X1": 289,
+                            "X2": 482,
+                            "Y1": 118,
+                            "Y2": 86,
+                            "id": 10
+                        },
+                        {
+                            "X1": 163,
+                            "X2": 482,
+                            "Y1": 152,
+                            "Y2": 118,
+                            "id": 11
+                        }
+                    ]
+                },
+                {
+                    "boxId": "issue_day",
+                    "boxName": "issue_day",
+                    "dataType": "string",
+                    "predict": "",
+                    "box": [{
+                        "X1": 267,
+                        "X2": 482,
+                        "Y1": 176,
+                        "Y2": 152,
+                        "id": 10
+                    }]
+                },
+                {
+                    "boxId": "issue_loc",
+                    "boxName": "issue_loc",
+                    "dataType": "string",
+                    "predict": "",
+                    "box": [{
+                            "X1": 265,
+                            "X2": 482,
+                            "Y1": 208,
+                            "Y2": 176,
+                            "id": 10
+                        }
+
+                    ]
+                }
+            ]
+        }
+    }
+}

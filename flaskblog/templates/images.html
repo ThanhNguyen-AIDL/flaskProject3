@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+{% block content %}
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Generation</title>
+    </head>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Image Generation</title>
+    </head>
+    <body>
+    <h1>Image Generation</h1>
+    <form action="/image_generate" method="POST">
+        <label for="prompt">Enter your prompt: </label>
+        <input type="text" id="prompt" name="prompt" required>
+        <button type="submit">Generate Images</button>
+    </form>
+
+    <h2>Generated</h2>
+    <div class="image-gallery">
+        {% if images %}
+{#            <img src="{{ url_for('serve_image', image_id='static/profile_pics/4e976e117ef08e25.jpg') }}" alt="Generated Image">#}
+            {% for image in images %}
+                          <img src="{{ url_for('static', filename='database/' + image) }}" alt="Generated Image">
+            {% endfor %}
+        {% else %}
+            <p>No images to display</p>
+        {% endif %}
+    </div>
+    </body>
+    </html>
+{% endblock content %}
